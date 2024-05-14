@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casedade</title>
+</head>
+<head>
+    <title>How CSS Rules Cascade</title>
+    <style type="text/css">
+        * {
+            font-family: arial, Verdana, sans-serif;
+        }
+        h1{
+            font-family: "Coutier New", Courier, monospace
+        }
+        i{
+            color: green;
+        }
+        i{
+            color: red;
+        }
+        b{
+            color: pink;
+        }
+        p b{
+            color: blue !important;
+        }
+        p b{
+            color: violet;
+        }
+        p#intro {
+            font-size: 100%;
+        }
+        p {
+            font-size: 75%;
+        }
+    </style>
+</head>
+
+<body>
+        <h1>Potatoes</h1>
+        <p id="intro">
+            There are <i>dozen</i> of diff <b>potato</b> varieties.
+        </p>
+        <p>
+            They are usually described as early, second and maincrop potatoes.
+        </p>
+</body>
+</html>
