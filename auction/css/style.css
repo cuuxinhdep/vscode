@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,200;1,400;1,500&display=swap');
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif;
+}
+html {
+    background-color: gray;
+}
+#wrapper {
+    width: 100%;
+    height: 100vh;
+    background-color: gray;
+}
+#header {
+    width: 100%;
+    padding:0px 30px;
+    margin-top:33px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+#menu {
+    list-style:none;
+    display: flex;
+}
+
+#menu .item {
+    margin:0px 25px 0px 25px;
+}
+
+#menu .item a {
+    color:#1d1a1a;
+    text-decoration: none;
+}
+
+#menu .item a:hover {
+    color: goldenrod ;
+}
+
+#actions {
+    display: flex;
+}
+
+#actions .item {
+    margin-left:22px;
+}
+
+
+#banner {
+    width: 100%;
+    background-image :url("../image/jewelry.jpg");
+    height: 463px;
+    margin-top:40px;
+    display: flex;
+    padding:0px 133px;
+    position:relative;
+}
+
+#banner .box-left ,#banner .box-right {
+    width: 50%;
+}
+#banner  .box-left h2 {
+    font-size:40px;
+    margin-top:75px;
+    color:#fff;
+}
+
+
+#banner .box-left p {
+    color:#ffffff;
+}
+
+#banner .box-left button {
+    width: 191px;
+    height: 48px;
+    margin-top:41px;
+    background:#1d1a1a;
+    border:none;
+    outline:none;
+    color:#fff;
+    font-weight: bold;
+    border-radius: 20px;
+    transition:0.4s;
+}
+
+#banner .box-left button:hover {
+    background:goldenrod;
+}
+
+#banner .box-right {
+    padding-left:200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#banner .box-right img {
+    margin:0px 10px;
+    animation :animation 3s infinite linear; 
+}
+
+
+#banner .box-right img:nth-child(1)
+{
+    animation-delay: 0.5s;
+}
+#banner .box-right img:nth-child(2)
+{
+    
+    animation-delay: 1s;
+}
+.preview {
+    margin-left: -40px;
+    margin-top: -20px;
+    position: center;
+}
+
+
+p {
+    color: #fff;
+}
+
+.info{
+    color:#fff;
+}
+
+hgroup {
+    color: goldenrod;
+}
+
+.container-1 {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.product {
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.product-info {
+    border: 1px solid #ccc;
+    padding: 15px;
+}
+
+.product-info h2 {
+    margin-bottom: 10px;
+}
+
+.product-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.product-info li {
+    margin-bottom: 5px;
+}
+
+
+footer {
+    width: 294px;
+    height: 32px;
+    background:transparent;
+    padding-left:20px;
+    color:#fff;
+    margin-top:30px;
+}
+
+footer > ul > li {
+    height: 23px;
+}
