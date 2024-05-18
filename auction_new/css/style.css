@@ -115,10 +115,52 @@ html {
     font-size: 13px;
 }
 
-.container{
+.subtit {  
+    max-width: 100%;
+  }
 
+.section-usp-message{
+    display: flex;
+    background: rgb(0,0,0,0.79);
 }
 
+.section-subtit {
+    max-width: 1860px;
+    margin: auto;
+}
+
+.ui{
+    width: auto;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+
+.abc{
+    float: left;
+    margin: 20px 0 20px 20px;
+    font-size: 14px;
+    font-weight: 400;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.57;
+    letter-spacing: normal;
+    text-align: center;
+    color: goldenrod;
+    max-width: 380px;
+}
+
+
+.subtit .section-subtit  {
+    padding: 30px 30px;
+    display: flex;
+}
+
+.upcoming-title {
+    text-align: center;
+    color: goldenrod;
+    height: 40px;
+}
 
 #footer {
     width: 100%;
