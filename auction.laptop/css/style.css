@@ -23,6 +23,7 @@ html {
     align-items: center;    
 }
 
+
 #menu {
     list-style:none;
     display: flex;
@@ -30,6 +31,8 @@ html {
 
 #menu .item {
     margin:0px 25px 0px 25px;
+    font-size: medium;
+    font-weight: bold;
 }
 
 #menu .item a {
@@ -118,7 +121,7 @@ html {
 
 .subtit {  
     max-width: 100%;
-  }
+}
 
 .section-usp-message{
     display: flex;
@@ -151,17 +154,66 @@ html {
     max-width: 380px;
 }
 
-
 .subtit .section-subtit  {
     padding: 30px 30px;
     display: flex;
 }
+
 
 .upcoming-title {
     text-align: center;
     color: goldenrod;
     height: 40px;
 }
+
+.upcom-auction{
+    text-align: center;
+    color: goldenrod;
+    margin-top: 50px;
+}
+
+.container{
+    padding: auto;
+    margin: auto;
+}
+
+
+
+.col-md-4 img {
+    width: 293px;
+    height: 200px;
+    padding: 0;
+    margin: 0;
+    border-radius: 30px;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.col-md-4 img:hover {
+    transform: scale(1.1);
+}
+.col-md-4 h3 {
+    color: goldenrod;
+}
+
+.upcom-border{
+    margin-top: 50px;
+}
+
+.featured-auctions{
+    margin-top: 50px;
+    text-align: center;
+    color: goldenrod;
+}
+ h4 {
+    color: #fff;
+}
+
+.margin-item {
+    margin-top: 50px;
+}
+
+
 
 #footer {
     width: 100%;
@@ -173,8 +225,11 @@ html {
     justify-content: space-around;
 }
 
+
+
 #footer .box {
     width: 250px;
+
     color: goldenrod;
 }
 
@@ -216,5 +271,7 @@ html {
     color:#fff;
 }
 
+
  p {
-color: #fff;}
+color: #fff;
+}
