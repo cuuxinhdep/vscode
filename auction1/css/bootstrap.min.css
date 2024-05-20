@@ -1,17 +1,4 @@
-<<<<<<< HEAD:abc_auction/css/bootstrap.min.css
 
-
-=======
-<<<<<<< HEAD:auction_new/css/bootstrap.min.css
-
-/*!
- * Bootstrap v3.3.7 (http://getbootstrap.com)
- * Copyright 2011-2016 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
-
-=======
->>>>>>> b810413c3a3fd9f4cd5c89099be2f874f76d8905:auction.laptop/css/bootstrap.min.css
->>>>>>> 0ab37fc0e555ff6403337f94b4b0572e96f34c8c:auction.laptop/css/bootstrap.min.css
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
  * Copyright 2011-2016 Twitter, Inc.
@@ -40,34 +27,4 @@
 .nav a:hover{
 	background-color:#ED8116  !important;
 	font-size: 20px;
-<<<<<<< HEAD:abc_auction/css/bootstrap.min.css
 }
-=======
-<<<<<<< HEAD:auction_new/css/bootstrap.min.css
-}/*# sourceMappingURL=bootstrap.min.css.map */
-
-.icon-bar {
- 
-  background-color:#FFFFFF;
-}
-
-.navbar{
-	border: none !important;
-	border-radius: 0px !important;
-	background-color: #0EC0C3;
-	
-}
-
-
-.nav a{
-	color: #FFFFFF !important;
-	font-size: 20px;
-}
-
-.nav a:hover{
-	background-color:#ED8116  !important;
-	font-size: 20px;
-=======
->>>>>>> b810413c3a3fd9f4cd5c89099be2f874f76d8905:auction.laptop/css/bootstrap.min.css
-}
->>>>>>> 0ab37fc0e555ff6403337f94b4b0572e96f34c8c:auction.laptop/css/bootstrap.min.css
