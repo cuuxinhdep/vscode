@@ -1,0 +1,155 @@
+body{
+    background-image: url('/auction1/image/about_us.png');
+    background-size: cover;
+    background-position-y:-100px ;
+}
+.container {
+    max-width: 960px;
+    margin: 0px auto;
+}
+
+#header {
+    background-color: #1d1a1a;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    font-size: medium;
+    font-weight: bold;
+}
+
+#logo {
+    padding: 5px 0px;
+}
+
+#logo img {
+    max-width: 50px;
+    height: auto;
+}
+
+#main-menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#main-menu li {
+    position: relative;
+}
+
+#main-menu li a {
+    color: #f8f8f8;
+    display: block;
+    padding: 18px 20px;
+    text-decoration: none;
+}
+
+#main-menu ul.sub-menu{
+    position: absolute;
+    background-color: #1d1a1a;
+    padding: 15px 0px;
+    list-style: none;
+    width: 200px;
+    border-bottom: 1px solid #666464;
+    display: none;
+}
+
+#main-menu li:hover>ul.sub-menu {
+    display: block;
+}
+
+#main-menu ul.sub-menu a{
+    padding: 8px 15px;
+    border-bottom: 1px solid #666464;
+    left: 0;
+}
+
+#main-menu ul.sub-menu li:hover>a{
+    border-bottom: 1px solid red;
+}
+
+#main-menu ul.sub-menu li:last-child a{
+    border: none;
+}
+
+#main-menu ul.sub-menu ul.sub-menu{
+    left: 201px;
+    top: -15px;
+}
+
+
+#actions {
+    display: flex;
+}
+
+#actions .item {
+    margin-left:25px;
+}
+
+#menu #item{
+    margin-right: 300px;
+}
+
+#banner {
+    width: 100%;
+    background-image :url("../image/jewelry.jpg");
+    height: 463px;
+    display: flex;
+    padding:0px 133px;
+    background-color: #1d1a1a;
+}
+
+#banner .box-left ,#banner .box-right {
+    width: 50%;
+}
+#banner  .box-left h2 {
+    font-size:40px;
+    margin-top:75px;
+    color:#fff;
+}
+
+
+#banner .box-left p {
+    color:#ffffff;
+}
+
+#banner .box-left button {
+    width: 191px;
+    height: 48px;
+    margin-top:41px;
+    background:#1d1a1a;
+    border:none;
+    outline:none;
+    color:#fff;
+    font-weight: bold;
+    border-radius: 20px;
+    transition:0.4s;
+}
+
+#banner .box-left button:hover {
+    background:goldenrod;
+}
+
+#search {
+    background: #fff;
+    border-radius: 24px;
+}
+#search #search-box {
+    border: none;
+    outline: none;
+    padding: 5px 5px 5px 10px;
+    background: none;
+    font-size: 12px;
+}
+
+#search #search-btn {
+    background-color: #fff;
+    border: none;
+    padding: 2px 3px;
+    cursor: pointer;
+    border-radius: 50%;
+    font-size: 13px;
+}
