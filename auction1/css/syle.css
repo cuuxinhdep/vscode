@@ -1,4 +1,5 @@
 
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,200;1,400;1,500&display=swap');
 *{
     padding:0;
@@ -25,36 +26,75 @@ html {
 }
 
 
-#menu {
-    list-style:none;
+nav {
     display: flex;
-}
-
-/* #menu a{
-    position: relative;
-} */
-
-/* #menu ul {
-    position: absolute;
-} */
-
-#menu .item {
-    margin:0px 25px 0px 25px;
+    justify-content: space-between;
+    justify-items: center;
     font-size: medium;
     font-weight: bold;
 }
 
-/* #menu .item a>li a {
-    display: block;
-    padding: auto;
+/* #logo {
+    padding: 5px 0px;
 } */
-#menu .item a {
-    color:goldenrod;
+
+/* #logo img {
+    max-width: 50px;
+    height: auto;
+} */
+
+#main-menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 150px;
+}
+
+#main-menu li {
+    position: relative;
+}
+
+#main-menu li a {
+    color: goldenrod;
+    display: block;
+    padding: 18px 20px;
     text-decoration: none;
 }
 
-#menu .item a:hover {
-    color: goldenrod ;
+#main-menu ul.sub-menu{
+    position: absolute;
+    background-color: #1d1a1a;
+    padding: 15px 0px;
+    list-style: none;
+    width: 200px;
+    border-bottom: 1px solid #363333;
+    display: none;
+}
+
+#main-menu li:hover>ul.sub-menu {
+    display: block;
+}
+
+#main-menu ul.sub-menu a{
+    padding: 8px 15px;
+    border-bottom: 1px solid #363333;
+    left: 0;
+}
+
+#main-menu ul.sub-menu li:hover>a{
+    border-bottom: 1px solid gold;
+}
+
+#main-menu ul.sub-menu li:last-child a{
+    border: none;
+}
+
+#main-menu ul.sub-menu ul.sub-menu{
+    left: 201px;
+    top: -15px;
 }
 
 #actions {
@@ -71,11 +111,13 @@ html {
 
 #banner {
     width: 100%;
-    background-image :url("../image/jewelry.jpg");
+    background-image :url("../image/goldenkatanadragon.webp");
+    /* background-position: cover; */
+    background-position-y:-230px ;
+    /* background-position-x: 300px; */
     height: 463px;
     display: flex;
     padding:0px 133px;
-    position:relative;
     background-color: #1d1a1a;
 }
 
