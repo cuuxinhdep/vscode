@@ -1,5 +1,3 @@
-
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,200;1,400;1,500&display=swap');
 *{
     padding:0;
@@ -111,58 +109,6 @@ nav {
     margin-right: 300px;
 }
 
-#banner {
-    width: 100%;
-    background-image :url("../image/goldenkatanadragon.webp");
-    /* background-position: cover; */
-    background-position-y:-230px ;
-    /* background-position-x: 300px; */
-    height: 463px;
-    display: flex;
-    padding:0px 133px;
-    background-color: #1d1a1a;
-}
-
-#banner .box-left ,#banner .box-right {
-    width: 50%;
-}
-#banner  .box-left h2 {
-    font-size:40px;
-    margin-top:75px;
-    line-height: 60px;
-    color:#fff;
-}
-
-#banner  .box-left h2 .tit-1 {
-    font-size: 50px;
-}
-
-.box-left .tit {
-    font-size: 40px;
-}
-
-#banner .box-left p {
-    color:#ffffff;
-}
-
-#banner .box-left button {
-    width: 191px;
-    height: 48px;
-    margin-top:41px;
-    background:#1d1a1a;
-    border:none;
-    outline:none;
-    color:#fff;
-    font-weight: bold;
-    border-radius: 20px;
-    transition:0.4s;
-}
-
-
-#banner .box-left button:hover {
-    background:goldenrod;
-}
-
 #search {
     background: #fff;
     border-radius: 24px;
@@ -184,176 +130,133 @@ nav {
     font-size: 13px;
 }
 
-.subtit {  
-    max-width: 100%;
+
+
+.auction-title {
+    color: #fff;
+    margin: auto 30px;
+    margin-bottom: 20px;
 }
 
-.section-usp-message{
+.summary {
     display: flex;
-    background: rgb(24, 23, 23);
+    color: #fff;
+    justify-content: space-between; 
+    align-items: center;
+    margin: auto 30px;
+    border: 2px solid salmon;
 }
 
-.section-subtit {
-    max-width: 1860px;
-    margin: auto;
+.summary img {
+    width: 210px;
+    height: 207px;
 }
 
-.ui{
-    width: auto;
-    margin-left: 0 !important;
-    margin-right: 0 !important;
+.summary .content {
+    /* padding: 0px  950px 0px 0px; */
+    margin-right: 1000px;
+    line-height: 35px;
+    font-weight: bold;
 }
 
-
-.abc{
-    float: left;
-    margin: 20px 0 20px 20px;
-    font-size: 14px;
-    font-weight: 400;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.57;
-    letter-spacing: normal;
-    text-align: center;
-    color: goldenrod;
-    max-width: 380px;
+.content .live-now {
+    margin-right: 5px;
+    background-color: red;
+    border-radius: 5px;
+    padding: 5px 15px;
 }
 
-.subtit .section-subtit  {
-    padding: 30px 30px;
-    display: flex;
+.content .icon {
+    margin-right: 5px;
 }
 
-
-.upcoming-title {
-    text-align: center;
-    color: goldenrod;
-    height: 40px;
+.content a {
+    text-decoration: none;
+    color: #fff;
 }
 
-.upcom-auction{
-    text-align: center;
-    color: goldenrod;
-    margin-top: 50px;
-}
-
-.container{
-    padding: auto;
-    margin: auto;
-    width: 100%;
-    background-color: black    ;
-}
-.row {
-    padding:  0;
-    margin: 0;;
-}
-.col-md-3 {
-    
-    margin: 0px auto;
-    padding: 0px 15px;
-    margin-bottom: 20px ;
-}
-
-.col-md-3 img {
-    width: 300px;
-    height: 200px;
-    padding: 0;
-    margin: 0;
-    border-radius: 20px;
-    transition: all 0.3s ease-in-out;
-}
-
-.col-md-3 img:hover {
-    transform: scale(1.1);
-}
-.col-md-3 h3 {
+.content a:hover {
     color: goldenrod;
 }
 
-.upcom-border{
-    margin-top: 50px;
+.summary .auction-btn {
+    margin-right: 60px;
+    line-height: 45px;
 }
 
-.list-upcom {
-    border-bottom: 2px solid #3f3c3c;
-}
-
-.list-item .bar {
-    display: inline-block;
-    width: auto;
-}
-
-.bar {
-    overflow: hidden;
-}
-
-.bar button {
-    white-space: normal;
-}
-
-.bar .bar-item{
-    padding: 8px 16px;
-    float: left;
-    width: auto;
+.summary .btn {
+    color: #fff;
+    background-color: #4b4b4b;
+    padding: 15px 30px;
     border: none;
-    display: block;
-    outline: 0;
+    outline: none;
+    border-radius: 20px;
 }
 
-.button {
-    text-align: center;
-    cursor: pointer;
-    vertical-align: middle;
-    text-decoration: none;
-    overflow: hidden;
-    color: inherit;
-    background-color: inherit;
-    border-radius: 10px;
+.summary .btn:hover {
+    background: goldenrod;
+    transition: 0.4s;
 }
 
-.bar a {
+.page-content {
+    padding-right: 3px;
+    float:  left;
+    margin: auto 30px;
+    border: 2px solid pink;
+}
+
+.page-content .filter-content {
+    line-height: 25px;
+}
+
+.filter-content .group {
+    line-height: 22.87px;
+}
+
+
+.group .search-term {
+    align-items: center;
+    display: flex;
+    padding: 0px 20px 0px 8px;
+    box-sizing: border-box;
+}
+
+#search-lots {
+  border: none;
+  outline: none;
+  padding: 0px 10px 0px 10px;
+}
+
+.search-term .lot-btn {
+    border: none;
+    outline: none;
+    background: #fff;
+    padding: 0px 10px;
+}
+
+.group .select-opt {
     color: #fff;
-    text-decoration: none;
+    margin: 0px 2px;
 }
 
-.black{
-    color: #fff !important;
-    background-color: goldenrod !important;
-}
-
-/* Featured auction */
-.featured-auctions{
-    margin-top: 50px;
-    text-align: center;
-    color: goldenrod;
-}
- h4 {
+h3 {
     color: #fff;
 }
 
-.margin-item {
-    margin-top: 50px;
+
+.estimate .max-min {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    padding: auto 15px;
 }
 
-.item-f {
-    position: relative;
-}
-
-.item-f p{
-    position: absolute;
-    bottom: 65px;
-    width: 200px;
-    height: 26px;
-    max-width: 250px;
-    margin-left: 10px;
-}
-
-
-h4 {
-    position: absolute;
-    bottom:  10px;
-    max-width: 250px;
-    margin-left: 10px;
+.estimate .estimate-btn{
+    display: inline-block;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 10px 200px;
 }
 #footer {
     width: 100%;
