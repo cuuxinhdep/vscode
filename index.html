@@ -1,17 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Trang web đấu giá</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="header">
-        <nav>
-            <a href="" id="logo">
-                <img src="" alt="">
-            </a>
-        </nav>
-    </div>
+    <header>
+        <h1>Trang web đấu giá</h1>
+    </header>
+    <main>
+        <section class="search">
+            <h2>Tìm kiếm</h2>
+            <input type="text" placeholder="Nhập từ khóa">
+        </section>
+        <section class="lots">
+            <h2>Danh sách lô đấu giá</h2>
+            <div class="lot">
+                <img src="lot1.jpg" alt="Lô 1">
+                <div class="lot-info">
+                    <h3>Lô 1: Bộ chén dĩa gốm sứ</h3>
+                    <p>Giá khởi điểm: 1.000.000 VNĐ</p>
+                </div>
+            </div>
+            <div class="lot">
+                <img src="lot2.jpg" alt="Lô 2">
+                <div class="lot-info">
+                    <h3>Lô 2: Bức tranh sơn dầu</h3>
+                    <p>Giá khởi điểm: 5.000.000 VNĐ</p>
+                </div>
+            </div>
+            <div class="lot">
+                <img src="lot3.jpg" alt="Lô 3">
+                <div class="lot-info">
+                    <h3>Lô 3: Dây chuyền vàng</h3>
+                    <p>Giá khởi điểm: 10.000.000 VNĐ</p>
+                </div>
+            </div>
+            </section>
+        <section class="refine-search">
+            <h2>Lọc tìm kiếm</h2>
+            <form action="#">
+                <label for="category">Danh mục:</label>
+                <select id="category">
+                    <option value="">Tất cả</option>
+                    <option value="gom-su">Gốm sứ</option>
+                    <option value="tranh-anh">Tranh ảnh</option>
+                    <option value="bac-da">Bạc và mạ bạc</option>
+                    </select>
+                <label for="min-price">Giá khởi điểm tối thiểu:</label>
+                <input type="number" id="min-price" min="0">
+                <label for="max-price">Giá khởi điểm tối đa:</label>
+                <input type="number" id="max-price" min="0">
+                <button type="submit">Lọc</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Trang web đấu giá</p>
+    </footer>
 </body>
 </html>
