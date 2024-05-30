@@ -114,8 +114,9 @@ nav {
 #banner {
     width: 100%;
     background-image :url("../image/goldenkatanadragon.webp");
-    /* background-position: cover; */
-    background-position-y:-230px ;
+    background-position: center;
+    background-size: cover;
+    background-position-y:-295px ;
     /* background-position-x: 300px; */
     height: 463px;
     display: flex;
@@ -202,6 +203,10 @@ nav {
     width: auto;
     margin-left: 0 !important;
     margin-right: 0 !important;
+}
+
+.ui p {
+    color: #fff;
 }
 
 
@@ -412,6 +417,9 @@ h4 {
 }
 
 
- p {
+.upcom-border p {
 color: #fff;
+font-weight: 600;
+font-size: 18px;
+font-style: inherit;
 }
